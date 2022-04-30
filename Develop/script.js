@@ -136,6 +136,7 @@ copy.addEventListener("click", function () {
 // This copies the password value - works
 // Code example demonstrated in a youtube video: 
 // Source: https://youtu.be/9sT03jEwcaw
+// Source: GitHub
 function copyPassword() {
     document.getElementById("password").select();
     document.execCommand("Copy");
